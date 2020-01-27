@@ -1,0 +1,14 @@
+Agregar nueva empresa de paqueteria
+   1.- Agregar clase en la carpeta empresa con el nombre de la empresa y que implemente la interfaz lEmpresas 
+   2.- Agregar la lógica parecida a las empresas ya existentes y cambiar los datos necesarios
+Archivo Program
+   1.- Declarar la variable de la nueva paqueteria lEmpresas [paqueteria] = new [paqueteriaService](new List<lEnvios>() { [ARREGLO DE TIPOS DE ENVIO] }, [MARGEN DE GANANCIA EN %], "[NOMBRE DE LA PAQUETERIA]");
+   2.- Agregar la nueva paqueteria a la lista de empresas lstEmpresas
+
+
+Agregar nueva medio de transporte
+   1.- Agregar clase en la carpeta envios con el nombre del transporte y que implemente la interfaz lEnvios 
+   2.- Agregar la lógica parecida a las empresas ya existentes
+Archivo Program
+   1.- Declarar la variable del nuevo medio de transporte lEnvios [NOMBRE_VARIABLE] = new Avion() { dVelocidadEntrega = [VALOR_VELOCIDAD], dCostoEnvio = [COSTO],cNombre="[NOMBRE_TRANSPORTE]" };
+   2.- Agregar el nuevo medio de transporte a la lista de transportes lstTransportes
