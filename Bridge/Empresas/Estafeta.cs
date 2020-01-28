@@ -9,6 +9,7 @@ namespace Bridge
         public List<lEnvios> lstEnvios { get; set; }
 
         public decimal MargenUtilidad { get; set; }
+
         public string cNombre { get; set; }
 
         public Estafeta(List<lEnvios> _lstEnvio, Decimal _dMargenUtilidad, string _cNombre)

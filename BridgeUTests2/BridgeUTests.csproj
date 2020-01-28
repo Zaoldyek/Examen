@@ -59,6 +59,8 @@
     <Compile Include="Empresas\DHLUTests.cs" />
     <Compile Include="Empresas\EstafetaUTests.cs" />
     <Compile Include="Empresas\FEDEXSericeUTests.cs" />
+    <Compile Include="State\ActivarStateUTests.cs" />
+    <Compile Include="State\DesactivarStateUTests.cs" />
     <Compile Include="Utilerias\AsignarDatosEnvioUTests.cs" />
     <Compile Include="Utilerias\BuscarMejorOpcionUTests.cs" />
     <Compile Include="Utilerias\LeerArchivoTextoUTests.cs" />

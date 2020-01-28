@@ -4,14 +4,14 @@ using System.Collections.Generic;
 
 namespace Bridge
 {
-    public class FEDEXSerice : lEmpresas
+    public class FEDEXService : lEmpresas
     {
         public List<lEnvios> lstEnvios { get; set; }
 
         public decimal MargenUtilidad { get; set; }
         public string cNombre { get; set; }
 
-        public FEDEXSerice(List<lEnvios> _lstEnvio, Decimal _dMargenUtilidad, string _cNombre)
+        public FEDEXService(List<lEnvios> _lstEnvio, Decimal _dMargenUtilidad, string _cNombre)
         {
             lstEnvios = new List<lEnvios>();
             lstEnvios.AddRange(_lstEnvio);

@@ -18,7 +18,7 @@ namespace Bridge.Tests
             //Arrange
             decimal iResultado = 0;
             lEnvios barco = new Barco() { dVelocidadEntrega = 46, dCostoEnvio = 1 };
-            lEmpresas fedex = new FEDEXSerice(new List<lEnvios>() { barco }, 50, "Fedex");
+            lEmpresas fedex = new FEDEXService(new List<lEnvios>() { barco }, 50, "Fedex");
             DateTime dtHoy = Convert.ToDateTime("27-01-2020 12:00:00");
             DateTime dtEntrega = Convert.ToDateTime("28-01-2020 12:00:00");
             State.State entPedido = new State.State(new DesactivarState(), "México", "USA", 2500, fedex, barco, dtHoy);
@@ -34,7 +34,7 @@ namespace Bridge.Tests
             //Arrange
             DateTime dtResultado = new DateTime();
             lEnvios barco = new Barco() { dVelocidadEntrega = 46, dCostoEnvio = 1 };
-            lEmpresas fedex = new FEDEXSerice(new List<lEnvios>() { barco }, 50, "Fedex");
+            lEmpresas fedex = new FEDEXService(new List<lEnvios>() { barco }, 50, "Fedex");
             DateTime dtHoy = Convert.ToDateTime("27-01-2020 12:00:00");
             State.State entPedido = new State.State(new DesactivarState(), "México", "USA", 2500, fedex, barco, dtHoy);
             //Act
@@ -50,7 +50,7 @@ namespace Bridge.Tests
             decimal dResultado = 0;
             decimal dEsperado = 3750;
             lEnvios barco = new Barco() { dVelocidadEntrega = 46, dCostoEnvio = 1 };
-            lEmpresas fedex = new FEDEXSerice(new List<lEnvios>() { barco }, 50, "Fedex");
+            lEmpresas fedex = new FEDEXService(new List<lEnvios>() { barco }, 50, "Fedex");
             DateTime dtHoy = Convert.ToDateTime("27-01-2020 12:00:00");
             State.State entPedido = new State.State(new DesactivarState(), "México", "USA", 2500, fedex, barco, dtHoy);
             //Act

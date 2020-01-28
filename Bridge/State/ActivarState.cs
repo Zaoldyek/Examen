@@ -4,7 +4,7 @@ namespace State
 {
     public class ActivarState : Pedido
     {
-        State context { get; set; }
+        private State context { get; set; }
 
         public void setContext(State context)
         {

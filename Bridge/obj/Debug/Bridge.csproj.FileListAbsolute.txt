@@ -19,3 +19,10 @@ C:\Eventos\ExamenFinal\Adaptador\Bridge\obj\Debug\Bridge.csprojAssemblyReference
 C:\Eventos\ExamenFinal\Adaptador\Bridge\obj\Debug\Bridge.csproj.CoreCompileInputs.cache
 C:\Eventos\ExamenFinal\Adaptador\Bridge\obj\Debug\Bridge.exe
 C:\Eventos\ExamenFinal\Adaptador\Bridge\obj\Debug\Bridge.pdb
+C:\Examen\Examen\Bridge\bin\Debug\Bridge.exe.config
+C:\Examen\Examen\Bridge\bin\Debug\Bridge.exe
+C:\Examen\Examen\Bridge\bin\Debug\Bridge.pdb
+C:\Examen\Examen\Bridge\obj\Debug\Bridge.csprojAssemblyReference.cache
+C:\Examen\Examen\Bridge\obj\Debug\Bridge.csproj.CoreCompileInputs.cache
+C:\Examen\Examen\Bridge\obj\Debug\Bridge.exe
+C:\Examen\Examen\Bridge\obj\Debug\Bridge.pdb

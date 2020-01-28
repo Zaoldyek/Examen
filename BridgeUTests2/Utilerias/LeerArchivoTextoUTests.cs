@@ -31,7 +31,6 @@ namespace Bridge.Tests
             Lector.lectorArchivo = e => throw new FileNotFoundException();
             //Assert
             lstRegistros = Lector.LeerArchivo("Pedidos.txt");
-            
         }
     }
 }

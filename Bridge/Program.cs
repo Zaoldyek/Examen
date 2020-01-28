@@ -35,7 +35,7 @@ namespace Bridge
             lEnvios tren = new Tren() { dVelocidadEntrega = 80, dCostoEnvio = 5, cNombre = "Tren" };
             lEnvios barco = new Barco() { dVelocidadEntrega = 46, dCostoEnvio = 1, cNombre = "Barco" };
             lEnvios bici = new Bici() { dVelocidadEntrega = 1, dCostoEnvio = 3, cNombre = "Bici" };
-            lEmpresas fedex = new FEDEXSerice(new List<lEnvios>() { barco }, 50, "Fedex");
+            lEmpresas fedex = new Estafeta(new List<lEnvios>() { barco }, 50, "Fedex");
             lEmpresas dhl = new DHL(new List<lEnvios>() { aereo, barco }, 40, "DHL");
             lEmpresas estafeta = new Estafeta(new List<lEnvios>() { tren }, 20, "Estafeta");
             lEmpresas upc = new UPC(new List<lEnvios>() { bici }, 50, "UPC");

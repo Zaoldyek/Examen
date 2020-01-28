@@ -21,7 +21,7 @@ namespace Strategy.Tests
             string cResultado = "";
             Expresion4 expresion4 = new Expresion4();
             lEnvios barco = new Barco() { dVelocidadEntrega = 46, dCostoEnvio = 1 };
-            lEmpresas fedex = new FEDEXSerice(new List<lEnvios>() { barco }, 50, "Fedex");
+            lEmpresas fedex = new Estafeta(new List<lEnvios>() { barco }, 50, "Fedex");
             DateTime dtHoy = Convert.ToDateTime("27-01-2020 12:00:00");
             DateTime dtEntrega = Convert.ToDateTime("28-01-2020 12:00:00");
             State.State entPedido = new State.State(new DesactivarState(), "México", "USA", 5000, fedex, barco, dtHoy);
@@ -39,7 +39,7 @@ namespace Strategy.Tests
             string cResultado = "";
             Expresion4 expresion4 = new Expresion4();
             lEnvios barco = new Barco() { dVelocidadEntrega = 46, dCostoEnvio = 1 };
-            lEmpresas fedex = new FEDEXSerice(new List<lEnvios>() { barco }, 50, "Fedex");
+            lEmpresas fedex = new Estafeta(new List<lEnvios>() { barco }, 50, "Fedex");
             DateTime dtHoy = Convert.ToDateTime("29-01-2020 12:00:00");
             DateTime dtEntrega = Convert.ToDateTime("28-01-2020 12:00:00");
             State.State entPedido = new State.State(new DesactivarState(), "México", "USA", 5000, fedex, barco, Convert.ToDateTime("27-01-2020 12:00:00"));

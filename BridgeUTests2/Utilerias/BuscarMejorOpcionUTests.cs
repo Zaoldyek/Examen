@@ -19,7 +19,7 @@ namespace Bridge.Tests
             string cResultado = "";
             lEnvios aereo = new Avion() { dVelocidadEntrega = 600, dCostoEnvio = 10, cNombre = "Avion" };
             lEnvios barco = new Barco() { dVelocidadEntrega = 46, dCostoEnvio = 1, cNombre = "Barco" };
-            lEmpresas fedex = new FEDEXSerice(new List<lEnvios>() { barco }, 50, "Fedex");
+            lEmpresas fedex = new Estafeta(new List<lEnvios>() { barco }, 50, "Fedex");
             lEmpresas dhl = new DHL(new List<lEnvios>() { aereo, barco }, 40, "DHL");
             List<lEmpresas> lstEmpresas = new List<lEmpresas>() { fedex, dhl };
             BuscarMejorOpcion buscarMejorOpcion = new BuscarMejorOpcion();
